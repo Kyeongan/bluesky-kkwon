@@ -8,8 +8,9 @@ var destination = document.querySelector('#container');
 
 
 ReactDOM.render(
-  <div>
-	<TodoList/>
-  </div>, 
-  destination
+	<div>
+		Todo list react example, it highlights the digits.
+		<TodoList />
+	</div>,
+	destination
 );
