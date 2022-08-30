@@ -2,7 +2,7 @@
 	"name": "todolist",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "https://kyeongan.github.io/bluesky-kkwon",
+	"homepage": "https://kyeongan.github.io/todo-list",
 	"dependencies": {
 		"react": "^16.4.1",
 		"react-dom": "^16.4.1",
@@ -12,9 +12,9 @@
 		"gh-pages": "^4.0.0"
 	},
 	"scripts": {
+		"start": "react-scripts start",
 		"predeploy": "npm run build",
 		"deploy": "gh-pages -d build",
-		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test --env=jsdom",
 		"eject": "react-scripts eject"
